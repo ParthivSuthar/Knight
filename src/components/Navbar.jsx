@@ -11,8 +11,8 @@ const Navbar = () => {
   }
 
   return (
-    <header className="py-4">
-      <div className="flex justify-between items-center px-12">
+    <header className="bg-stone-950">
+      <div className="flex justify-between items-center h-16 sm:px-12 px-6">
         <h2 className="text-orange-500 font-bold text-xl md:text-2xl lg:text-3xl hover:text-white">
           <a href="#">KNIGHT</a>
         </h2>
@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
       </div>
       {menuopen && (
-        <div className='bg-red-400 left-8 top-14 absolute p-2 text-left'>
+        <div className='bg-slate-700 text-transparent left-8 top-14 absolute p-2 text-left'>
         {navLinks.map((link, index) => (
             <li className='list-none mb-2 hover:scale-105 transform transition duration-300' key={index}><a className='text-white ' href={link.href}>{link.label}</a></li>
         ))}
