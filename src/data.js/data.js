@@ -69,3 +69,20 @@ export const blogs = [
    {image: blog2, title: "New update is available for the editor", date: "August 16, 2018", para: "Nam liber tempor cum soluta nobis eleifend option congue nihil imper, consectetur adipiscing elit."},
    {image: blog3, title: "The story of building #1 page builder", date: "December 2nd, 2017", para: "Nam liber tempor cum soluta nobis eleifend option congue nihil imper, consectetur adipiscing elit."},
 ]
+
+
+export const legal = [
+   {href: "#", label: "Privacy"},
+   {href: "#", label: "Terms"},
+   {href: "#", label: "Refund Policy"},
+]
+
+export const partner = [
+   {href: "#", label: "Refer a friend"},
+   {href: "#", label: "Affiliates"},
+]
+
+export const help = [
+   {href: "#", label: "Support"},
+   {href: "#", label: "Log in"},
+]

@@ -1,6 +1,7 @@
 import Blogs from "./components/Blogs"
 import Faq from "./components/Faq"
 import Features from "./components/Features"
+import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
 import Pricing from "./components/Pricing"
@@ -19,6 +20,7 @@ function App() {
         <Faq/>
         <Blogs/>
       </main>
+      <Footer/>
     </>
   )
 }
