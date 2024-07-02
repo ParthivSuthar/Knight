@@ -57,3 +57,15 @@ export const faq = [
    {que: "What is your refund policy?", ans: "Nam liber tempor cum soluta nobis eleifend option congue nihil imper per tem por legere me doming."},
    {que: "How can I contact you?", ans: "Nam liber tempor cum soluta nobis eleifend option congue nihil imper per tem por legere me doming."}
 ]
+
+
+import blog1 from "../assets/blog-1.jpg"
+import blog2 from "../assets/blog-2.jpg"
+import blog3 from "../assets/blog-3.jpg"
+
+
+export const blogs = [
+   {image: blog1, title: "We launch new iOS & Android mobile apps", date: "Sep 27, 2018", para: "Nam liber tempor cum soluta nobis eleifend option congue nihil imper, consectetur adipiscing elit."},
+   {image: blog2, title: "New update is available for the editor", date: "August 16, 2018", para: "Nam liber tempor cum soluta nobis eleifend option congue nihil imper, consectetur adipiscing elit."},
+   {image: blog3, title: "The story of building #1 page builder", date: "December 2nd, 2017", para: "Nam liber tempor cum soluta nobis eleifend option congue nihil imper, consectetur adipiscing elit."},
+]

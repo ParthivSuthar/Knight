@@ -1,3 +1,4 @@
+import Blogs from "./components/Blogs"
 import Faq from "./components/Faq"
 import Features from "./components/Features"
 import HeroSection from "./components/HeroSection"
@@ -16,6 +17,7 @@ function App() {
         <Features/>
         <Pricing/>
         <Faq/>
+        <Blogs/>
       </main>
     </>
   )
