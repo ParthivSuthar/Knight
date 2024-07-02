@@ -47,3 +47,13 @@ export const enterprise = [
    {id: 4, details: "24/7 support"},
    {id:5, freetrial: "START FREE TRIAL"}
 ]
+
+
+export const faq = [
+   {que: "Can I try it for free?", ans: "Nam liber tempor cum soluta nobis eleifend option congue nihil imper per tem por legere me doming."},
+   {que: "Do you have hidden fees?", ans: "Nam liber tempor cum soluta nobis eleifend option congue nihil imper per tem por legere me doming."},
+   {que: "What are the payment methods you accept?", ans: "Nam liber tempor cum soluta nobis eleifend option congue nihil imper per tem por legere me doming."},
+   {que: "How often do you release updates?", ans: "Nam liber tempor cum soluta nobis eleifend option congue nihil imper per tem por legere me doming."},
+   {que: "What is your refund policy?", ans: "Nam liber tempor cum soluta nobis eleifend option congue nihil imper per tem por legere me doming."},
+   {que: "How can I contact you?", ans: "Nam liber tempor cum soluta nobis eleifend option congue nihil imper per tem por legere me doming."}
+]
